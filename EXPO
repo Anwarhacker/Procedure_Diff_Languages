@@ -1,0 +1,16 @@
+1 ) npx create-expo-app@latest projectName
+                              -------------
+
+2 ) cd projectName
+
+then reset the project 
+
+npm run reset-project
+
+then after this a folder is created app-exaples delete that 
+                                    -----------
+
+then start the project 
+3 ) npm start
+
+then scan QR by expo go app or on the emulato
