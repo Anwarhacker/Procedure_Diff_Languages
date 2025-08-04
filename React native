@@ -1,15 +1,17 @@
-// before you create REACT NATIVE  project you must hav ethe android studio setup (sdk)
+// before you create REACT NATIVE  project you must have the android studio setup (sdk)
 
 then 
 
 command for creating project 
-1 ) npx @react-native-community/cli init  anwar   (this last anwar is project name )
+
+1 ) npx @react-native-community/cli init  anwar         (this last anwar is project name )
                                           ------
 2 ) cd anwar
 
 then connect mobile with laptop through USB  or you need setup of emulator 
 
-3 ) npx react-native run-android
+3 ) npx react-native run-android (for android )
 
 the main file is App.tsx
+                 ________
 
