@@ -5,12 +5,12 @@
 
 then reset the project 
 
-npm run reset-project
+--> npm run reset-project
 
-then after this a folder is created app-exaples delete that 
+then after this a folder is created app-examples delete that 
                                     -----------
 
 then start the project 
 3 ) npm start
 
-then scan QR by expo go app or on the emulato
+then scan QR by expo Go app or on the emulator
