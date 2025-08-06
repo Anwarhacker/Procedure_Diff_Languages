@@ -1,0 +1,45 @@
+//vite.png see that image in same path 
+
+=====================================================================================================================================================================================
+
+Here’s a short note on the steps shown in your screenshot for creating a **React app using Vite**:
+
+---
+
+### ✅ Steps to Create a Vite + React App (JavaScript):
+
+1. **Command to create app:**
+
+   ```bash
+   npm create vite
+   ```
+
+2. **Setup options:**
+
+   * **Project name:** `viteapp`
+   * **Framework:** React
+   * **Variant:** JavaScript
+
+3. **Generated project structure in:**
+
+   ```
+   C:\Users\anwar\OneDrive\Desktop\NextJS\viteapp
+   ```
+
+4. **Next commands to run:**
+
+   ```bash
+   cd viteapp
+   npm install
+   npm run dev
+   ```
+
+5. **Result:**
+
+   * 152+ packages installed
+   * 0 vulnerabilities
+   * App is running in dev mode (usually at [http://localhost:5173](http://localhost:5173))
+
+---
+
+Let me know if you want to add Tailwind CSS, routing, or any other features!
