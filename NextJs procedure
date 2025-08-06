@@ -1,0 +1,46 @@
+//Nextjs.png see that image in same path in this 
+
+=====================================================================================================================================================
+
+Here’s a short note on the steps shown in your screenshot for creating a **Next.js app with Tailwind CSS**:
+
+---
+
+### ✅ Steps to Create a Next.js App with Tailwind CSS:
+
+1. **Command Used:**
+
+   ```bash
+   npx create-next-app
+   ```
+
+2. **Project Setup Options:**
+
+   * **Project name:** `firstnextapp`
+   * **TypeScript:** ❌ No
+   * **ESLint:** ✅ Yes
+   * **Tailwind CSS:** ✅ Yes
+   * **Use `src/` directory:** ❌ No
+   * **App Router (recommended):** ✅ Yes
+   * **Turbopack for dev:** ❌ No
+   * **Import alias (`@/*`) :** ✅ Yes
+
+3. **Template Used:** `app-tw` (Next.js + Tailwind CSS)
+
+4. **Dependencies Installed:**
+
+   * `react`, `react-dom`, `next`
+
+5. **Dev Dependencies Installed:**
+
+   * `tailwindcss`, `postcss`, `eslint`, `eslint-config-next`, `@eslint/eslintrc`
+
+6. **Result:**
+
+   * 330+ packages added
+   * 0 vulnerabilities
+   * Git repository initialized
+
+---
+
+Let me know if you want to run or modify the app next.
