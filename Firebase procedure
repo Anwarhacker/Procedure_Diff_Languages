@@ -67,7 +67,73 @@ and enter Next
  y
  and select and choose the project
 
- 6 )
+ 6 ) update the ( next.config.mjs )
+
+To
+
+----------------------------------------------------------------------
+ /** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+};
+
+export default nextConfig;
+
+----------------------------------------------------------------------------
+
+and (package.json ) also add 
+
+-->
+
+----------------------------------------------------------------------------------
+
+"scripts": {
+  // ... existing scripts
+  "build": "next build",
+  "deploy": "next build && firebase deploy"
+}
+
+-------------------------------------------------------------------------------
+
+7 ) update firebase.json 
+
+{} this to --->
+
+-----------------------------------------------------------------------------
+
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
+------------------------------------------------------------------------------------
+
+8 ) and also firebaserc update this 
+
+-----------------------------------------------------------------------------------
+
+{
+  "projects": {
+    "default": "deployingonfirebase"
+  }
+}
+
+----------------------------------------------------------------------------------------
 
 
        
