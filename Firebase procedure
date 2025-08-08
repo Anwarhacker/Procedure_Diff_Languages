@@ -135,5 +135,12 @@ and (package.json ) also add
 
 ----------------------------------------------------------------------------------------
 
+9 ) close all the tabs other error will come project conflict thats why
+
+then run  --->  npm run build
+An folder will  created -- > out
+
+and then --> firebase deploy 
+
 
        
