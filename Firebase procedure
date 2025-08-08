@@ -1,0 +1,73 @@
+1 ) first keep ready the project 
+2 ) Go to firebase console --> create a firebase project
+        --> set the name
+        --> continue
+        --> continue
+        --> continue
+        select the account and press to create project
+                                      -- >  continue
+
+3) select the platform (like ios , android ,web, flutter etc)
+
+now for web
+-----------
+
+--> Register the app
+           --> give the name and check the box
+           --> register app
+           
+for next step ( ADD FIREBASE SDK )
+
+using now 
+ use npm 
+      run this in project directory 
+
+       -->  npm install firebase
+
+       and copy 
+-----------------------------------------------------------------------------------------------
+       // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAxORGlAlwa2GUlESzCPBfkH8iPmd71dbc",
+  authDomain: "deployingonfirebase.firebaseapp.com",
+  projectId: "deployingonfirebase",
+  storageBucket: "deployingonfirebase.firebasestorage.app",
+  messagingSenderId: "732449368515",
+  appId: "1:732449368515:web:fb81b52eb1f5e4e516b576",
+  measurementId: "G-EDX2DCP6W9"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+---------------------------------------------------------------------------------------------------
+
+and paste in 
+
+firebaseConfig.js ( create in root directory of the project and paste  )
+
+
+and enter Next
+
+3) execute this commond (if executed one time no need to execute )
+
+    npm install -g firebase-tools
+
+4) firebase login ( In root directory of project paste this )
+
+5) firebase init
+ y
+ and select and choose the project
+
+ 6 )
+
+
+       
