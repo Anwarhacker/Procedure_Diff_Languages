@@ -1,0 +1,16 @@
+// To integrate google auth we need to create project in firebase or how we do in firebase procedure to integrate google sdk is require
+
+--> And how to deploy to firebase wait till the project finish so 
+
+Implement SDK then refer the 
+
+Repo --> firebaseauth
+
+after the project complition then continue with 
+
+like
+
+--> firebase login 
+--> firebase init 
+--> npm run build
+--> firebase deploy
